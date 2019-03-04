@@ -1,0 +1,6 @@
+E:\csharpOOP\ACM.BL\ACM.BL\bin\Debug\ACM.BL.dll
+E:\csharpOOP\ACM.BL\ACM.BL\bin\Debug\ACM.BL.pdb
+E:\csharpOOP\ACM.BL\ACM.BL\obj\Debug\ACM.BL.csproj.CoreCompileInputs.cache
+E:\csharpOOP\ACM.BL\ACM.BL\obj\Debug\ACM.BL.dll
+E:\csharpOOP\ACM.BL\ACM.BL\obj\Debug\ACM.BL.pdb
+E:\csharpOOP\ACM.BL\ACM.BL\obj\Debug\ACM.BL.csprojAssemblyReference.cache
