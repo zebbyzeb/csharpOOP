@@ -10,6 +10,8 @@ namespace ACM.BL
     {
         public Customer Retrieve(int customerId)
         {
+            //Customer c = new Customer();
+            
             Customer customer = new Customer(customerId);
 
             if(customerId == 1)
@@ -26,7 +28,7 @@ namespace ACM.BL
             return new List<Customer>();
         }
 
-        public bool Save()
+        public bool Save(Customer customer)
         {
             return true;
         }

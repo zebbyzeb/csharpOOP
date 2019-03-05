@@ -9,15 +9,25 @@ namespace ACM.BL
     public class Customer
     {
         public Customer()
+            :this(0)
         {
 
         }
         public Customer(int customerId)
         {
             this.CustomerId = customerId;
+            this.AddressList = new List<Address>();
         }
 
+        //public Address WorkAddress { get; set; }
+
+        //public Address MyProperty { get; set; }
+
+        //Can either have two types of addresses or can have an address list to keep all the addresses.
+        public List<Address> AddressList { get; set; }
+
         public static int InstanceCount { get; set; }
+
         public string FirstName { get; set; }
 
         private string _lastName;
