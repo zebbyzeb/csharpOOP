@@ -20,7 +20,7 @@ namespace ACM.BL
         }
 
         public int CustomerType { get; set; }
-
+        
         //public Address WorkAddress { get; set; }
 
         //public Address MyProperty { get; set; }
@@ -75,6 +75,11 @@ namespace ACM.BL
                 return isValid = false;
             }
             return isValid;
+        }
+
+        public override string ToString()
+        {
+            return FullName;
         }
     }
 }

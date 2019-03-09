@@ -28,6 +28,9 @@ namespace ACM.BL
 
         public List<OrderItem> orderItems { get; set; }
 
-
+        public override string ToString()
+        {
+            return OrderDate.Value.Date + "(" + OrderId + ")";
+        }
     }
 }
