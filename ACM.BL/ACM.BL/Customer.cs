@@ -19,6 +19,8 @@ namespace ACM.BL
             this.AddressList = new List<Address>();
         }
 
+        public int CustomerType { get; set; }
+
         //public Address WorkAddress { get; set; }
 
         //public Address MyProperty { get; set; }
