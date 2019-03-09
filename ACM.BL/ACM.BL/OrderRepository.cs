@@ -19,6 +19,44 @@ namespace ACM.BL
             return order;
         }
 
+        public OrderDisplay RetrieveOrderDisplay(int orderId)
+        {
+            OrderDisplay orderDisplay = new OrderDisplay();
+
+            if (orderId == 10)
+            {
+                orderDisplay.FirstName = "Zebby";
+                orderDisplay.ShippingAddress = new Address()
+                {
+                    AddressType = 1,
+                    StreetLine1 = "27 Lakeside Dr"
+                };
+            }
+
+            orderDisplay.orderDisplayItemList = new List<OrderDisplayItem>();
+
+            if (orderId == 10)
+            {
+                OrderDisplayItem orderDisplayItem = new OrderDisplayItem()
+                {
+                    ProductName = "Sunflowers",
+                    OrderQuantity = 5
+                };
+
+                orderDisplay.orderDisplayItemList.Add(orderDisplayItem);
+
+                orderDisplayItem = new OrderDisplayItem()
+                {
+                    ProductName = "Cakes",
+                    OrderQuantity = 6
+                };
+
+                orderDisplay.orderDisplayItemList.Add(orderDisplayItem);
+            }
+
+            return orderDisplay;
+        }
+
         public bool Save()
         {
             return true;
