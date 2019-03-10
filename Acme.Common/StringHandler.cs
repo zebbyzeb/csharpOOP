@@ -23,7 +23,7 @@ namespace Acme.Common
                     }
                     else
                     {
-                        if (Char.IsUpper(source[i]))
+                        if (Char.IsUpper(source[i]) && !Char.IsWhiteSpace(source[i-1]))//could've used result.Trim()
                         {
                             result += " ";
                         }

@@ -1,0 +1,16 @@
+E:\csharpOOP\Acme.CommonTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+E:\csharpOOP\Acme.CommonTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+E:\csharpOOP\Acme.CommonTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+E:\csharpOOP\Acme.CommonTest\bin\Debug\Acme.CommonTest.dll
+E:\csharpOOP\Acme.CommonTest\bin\Debug\Acme.CommonTest.pdb
+E:\csharpOOP\Acme.CommonTest\bin\Debug\Acme.Common.dll
+E:\csharpOOP\Acme.CommonTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+E:\csharpOOP\Acme.CommonTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+E:\csharpOOP\Acme.CommonTest\bin\Debug\Acme.Common.pdb
+E:\csharpOOP\Acme.CommonTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+E:\csharpOOP\Acme.CommonTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+E:\csharpOOP\Acme.CommonTest\obj\Debug\Acme.CommonTest.csprojAssemblyReference.cache
+E:\csharpOOP\Acme.CommonTest\obj\Debug\Acme.CommonTest.csproj.CoreCompileInputs.cache
+E:\csharpOOP\Acme.CommonTest\obj\Debug\Acme.CommonTest.csproj.CopyComplete
+E:\csharpOOP\Acme.CommonTest\obj\Debug\Acme.CommonTest.dll
+E:\csharpOOP\Acme.CommonTest\obj\Debug\Acme.CommonTest.pdb
