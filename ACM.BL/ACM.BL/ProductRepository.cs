@@ -13,7 +13,7 @@ namespace ACM.BL
             Product product = new Product(productId);
             if (product.ProductId == 1)
             {
-                product.ProductName = "Chlorine";
+                product.ProductName = "HydroChlorine";
                 product.ProductDescription = "Part of Chemicals";
             }
             return product;

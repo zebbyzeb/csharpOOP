@@ -14,9 +14,7 @@ namespace Acme.CommonTest
             string expected = "Lakeside Drive";
 
             //Act
-            StringHandler stringHandler = new StringHandler();
-
-            string actual = stringHandler.InsertSpace("LakesideDrive");
+            string actual = StringHandler.InsertSpace("LakesideDrive");
 
             //Assert
             Assert.AreEqual(expected, actual);
@@ -30,9 +28,7 @@ namespace Acme.CommonTest
             string expected = "Lakeside Drive";
 
             //Act
-            StringHandler stringHandler = new StringHandler();
-
-            string actual = stringHandler.InsertSpace("Lakeside Drive");
+            string actual = StringHandler.InsertSpace("Lakeside Drive");
 
             //Assert
             Assert.AreEqual(expected, actual);

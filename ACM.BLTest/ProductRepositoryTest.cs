@@ -12,7 +12,7 @@ namespace ACM.BLTest
         {
             //Arrange
             Product expected = new Product();
-            expected.ProductName = "Chlorine";
+            expected.ProductName = "HydroChlorine";
             expected.ProductDescription = "Part of Chemicals";
 
             ProductRepository productRepository = new ProductRepository();

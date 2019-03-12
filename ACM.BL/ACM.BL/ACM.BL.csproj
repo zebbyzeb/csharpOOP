@@ -71,6 +71,12 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Acme.Common\Acme.Common.csproj">
+      <Project>{9d4614ee-2320-4ab8-b2b7-8cd0afa49b7a}</Project>
+      <Name>Acme.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

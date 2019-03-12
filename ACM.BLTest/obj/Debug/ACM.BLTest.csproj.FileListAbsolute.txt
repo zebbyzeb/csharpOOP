@@ -17,3 +17,5 @@ E:\csharpOOP\ACM.BLTest\obj\Debug\ACM.BLTest.pdb
 E:\csharpOOP\ACM.BLTest\bin\Debug\nunit.framework.dll
 E:\csharpOOP\ACM.BLTest\bin\Debug\nunit.framework.pdb
 E:\csharpOOP\ACM.BLTest\bin\Debug\nunit.framework.xml
+E:\csharpOOP\ACM.BLTest\bin\Debug\Acme.Common.dll
+E:\csharpOOP\ACM.BLTest\bin\Debug\Acme.Common.pdb

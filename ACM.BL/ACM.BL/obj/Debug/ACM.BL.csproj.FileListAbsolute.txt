@@ -15,3 +15,5 @@ E:\csharpOOP\ACM.BL\ACM.BL\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFra
 E:\csharpOOP\ACM.BL\ACM.BL\bin\Debug\nunit.framework.pdb
 E:\csharpOOP\ACM.BL\ACM.BL\bin\Debug\nunit.framework.xml
 E:\csharpOOP\ACM.BL\ACM.BL\obj\Debug\ACM.BL.csproj.CopyComplete
+E:\csharpOOP\ACM.BL\ACM.BL\bin\Debug\Acme.Common.dll
+E:\csharpOOP\ACM.BL\ACM.BL\bin\Debug\Acme.Common.pdb
