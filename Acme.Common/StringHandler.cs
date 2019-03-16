@@ -8,7 +8,12 @@ namespace Acme.Common
 {
     public static class StringHandler
     {
-        public static string InsertSpace(string source)
+        /// <summary>
+        /// Inserts space before each capital letter
+        /// </summary>
+        /// <param name="source"></param>
+        /// <returns></returns>
+        public static string InsertSpace(this string source)
         {
             string result = string.Empty;
 

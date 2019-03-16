@@ -7,7 +7,7 @@ using Acme.Common;
 
 namespace ACM.BL
 {
-    public class Product : EntityBase
+    public class Product : EntityBase, ILoggable
     {
         public Product()
         {
@@ -30,7 +30,8 @@ namespace ACM.BL
         public string ProductName
         {
             get {
-                return StringHandler.InsertSpace(_ProductName); }
+                return _ProductName.InsertSpace();
+            }
             set { _ProductName = value; }
         }
 
@@ -49,5 +50,8 @@ namespace ACM.BL
         {
             return ProductName;
         }
+
+        public string Log() =>
+            "ProductId: " + ProductId + " ProductName: " + ProductName;
     }
 }

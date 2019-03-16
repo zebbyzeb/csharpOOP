@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Acme.Common;
 
 namespace ACM.BL
 {
-    public class Customer : EntityBase
+    public class Customer : EntityBase, ILoggable
     {
         public Customer()
             :this(0)
@@ -81,5 +82,8 @@ namespace ACM.BL
         {
             return FullName;
         }
+
+        public string Log() =>
+            CustomerId + ": " + FullName + " Email: " + EmailAddress;
     }
 }

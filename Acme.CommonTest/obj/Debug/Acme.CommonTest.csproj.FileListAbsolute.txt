@@ -14,3 +14,5 @@ E:\csharpOOP\Acme.CommonTest\obj\Debug\Acme.CommonTest.csproj.CoreCompileInputs.
 E:\csharpOOP\Acme.CommonTest\obj\Debug\Acme.CommonTest.csproj.CopyComplete
 E:\csharpOOP\Acme.CommonTest\obj\Debug\Acme.CommonTest.dll
 E:\csharpOOP\Acme.CommonTest\obj\Debug\Acme.CommonTest.pdb
+E:\csharpOOP\Acme.CommonTest\bin\Debug\ACM.BL.dll
+E:\csharpOOP\Acme.CommonTest\bin\Debug\ACM.BL.pdb
